@@ -11,12 +11,12 @@
   &__left {
     grid-column: 5 span;
     padding-left: 60px;
+    padding-top: 60px;
   }
   &__right {
     display: flex;
     grid-column: 7 span;
     justify-content: flex-end;
-    padding-top: 60px;
   }
   &__title {
     margin: 0;

@@ -1,4 +1,4 @@
-import { validateForms } from './functions/validate-forms';
+import { validateForms } from '../functions/validate-forms';
 
 const rules = [
   {

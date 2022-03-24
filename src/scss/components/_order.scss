@@ -12,27 +12,25 @@
     grid-column: 5 span;
     padding-left: 60px;
     padding-top: 60px;
-<<<<<<< HEAD
-=======
+
     @include high-tablet {
       grid-column: 12 span;
       margin-bottom: 30px;
       padding-left: 0;
     }
->>>>>>> main
+
   }
   &__right {
     display: flex;
     grid-column: 7 span;
     justify-content: flex-end;
-<<<<<<< HEAD
-=======
+
     @include high-tablet {
       justify-content: center;
       grid-column: 12 span;
       padding-right: 0;
     }
->>>>>>> main
+
   }
   &__title {
     margin: 0;

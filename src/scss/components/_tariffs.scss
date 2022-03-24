@@ -4,6 +4,13 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 40px;
+
+    @include high-tablet {
+      gap: 20px;
+    }
+    @include small-tablet {
+      grid-template-columns: repeat(8, 1fr);
+    }
   }
   &__item {
     display: flex;
@@ -29,6 +36,12 @@
       .tariffs__descr {
         color: var(--light-color);
       }
+      @include high-desktop {
+        transform: scale(1);
+      }
+    }
+    @include small-tablet {
+      grid-column: 8 span;
     }
   }
   &__subtitle {
@@ -66,6 +79,12 @@
     line-height: 160%;
     text-align: center;
     color: var(--dark-color);
+    @include high-desktop {
+      font-size: 45px;
+    }
+    @include high-tablet {
+      font-size: 32px;
+    }
   }
   &__descr {
     margin: 0;
@@ -79,5 +98,9 @@
   &__btn {
     margin-top: 60px;
     min-width: 100%;
+    @include high-tablet {
+      padding: 10px 20px;
+      font-size: 10px;
+    }
   }
 }

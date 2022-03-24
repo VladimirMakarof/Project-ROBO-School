@@ -1,11 +1,4 @@
-
-
-import { validateForms } from './functions/validate-forms';
-
 import { validateForms } from '../functions/validate-forms';
-
-import { validateForms } from '../functions/validate-forms';
-
 
 const rules = [
   {
@@ -36,17 +29,16 @@ const rules = [
       {
         rule: 'required',
         value: true,
-        errorMessage: 'Заполните E-mail!'
+        errorMessage: 'Заполните Email!'
       },
       {
         rule: 'email',
         value: true,
-        errorMessage: 'Введите корректный E-mail!'
+        errorMessage: 'Введите корректный Email!'
       }
     ]
   },
 ];
-
 
 const afterForm = () => {
   console.log('Произошла отправка, тут можно писать любые действия');

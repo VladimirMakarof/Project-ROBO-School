@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { validateForms } from './functions/validate-forms';
+=======
+import { validateForms } from '../functions/validate-forms';
+>>>>>>> main
 
 const rules = [
   {

@@ -4,6 +4,7 @@
   border-radius: 10px;
   width: 44px;
   height: 44px;
+  display: none;
   &__line {
     position: absolute;
     left: 50%;
@@ -24,6 +25,9 @@
       transform: translateY(-50%);
     }
   }
+  @include high-tablet {
+    display: block;
+  }
 }
 .burger-close {
   position: absolute;
@@ -37,4 +41,8 @@
   background-position: center;
   background-size: 14px 12px;
   background-repeat: no-repeat;
+  display: none;
+  @include high-tablet {
+    display: block;
+  }
 }

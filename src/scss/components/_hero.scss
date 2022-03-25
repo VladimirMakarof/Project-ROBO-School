@@ -27,6 +27,9 @@
     line-height: 160%;
     text-transform: uppercase;
     color: var(--light-color);
+    @include high-tablet {
+      font-size: 50px;
+    }
 
     &-text {
       display: block;
@@ -36,6 +39,10 @@
       color: var(--light-color);
       max-width: 90%;
       text-transform: initial;
+
+      @include high-tablet {
+        font-size: 18px;
+      }
     }
   }
   @include high-tablet {

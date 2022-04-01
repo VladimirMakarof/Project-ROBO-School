@@ -1,3 +1,3 @@
 # ROBO-School
 
-https://vladimirmakarof.github.io/ROBO-School/app/index.html
+https://vladimirmakarof.github.io/Project-ROBO-School/
